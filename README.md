@@ -1,2 +1,3 @@
-# javascript_modulo_2
- Estrutura de Dados e Funções em JavaScript
+# Desenvolvimento Pessoal em JavaScript
+
+ Aulas e Exercicios realizados durante o módulo 2 de JavaScript.
