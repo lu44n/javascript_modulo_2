@@ -12,9 +12,14 @@ while (opc_menu != 3){
             alert("Carta adicionada com sucesso!")
             break;
         case "2":
-            const carta_puxada = cartas.pop()
-            num_cartas -= 1
-            alert("A carta " + carta_puxada + " foi puxada com sucesso!")
+            if (cartas.length == 0){
+                alert("Não há cartas no baralho!")
+            }
+            else {
+                const carta_puxada = cartas.pop()
+                num_cartas -= 1
+                alert("A carta " + carta_puxada + " foi puxada com sucesso!")
+            }
             break;
         case "3":
             alert("Obrigado por utilizar nossos serviços!")
