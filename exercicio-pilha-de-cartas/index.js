@@ -8,11 +8,12 @@ while (opc_menu != 3){
         case "1":
             const carta = prompt("Insira a carta: ")
             cartas.push(carta)
-            num_cartas = cartas.length
+            num_cartas += 1
             alert("Carta adicionada com sucesso!")
             break;
         case "2":
             const carta_puxada = cartas.pop()
+            num_cartas -= 1
             alert("A carta " + carta_puxada + " foi puxada com sucesso!")
             break;
         case "3":
